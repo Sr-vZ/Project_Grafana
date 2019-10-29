@@ -1,7 +1,7 @@
 import datetime
 import random
 import time
-
+from inject_run_id import inject_run_id
 # ts = datetime.datetime.now().timestamp().isoformat()
 # 
 # ts = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).isoformat()
@@ -67,11 +67,20 @@ def logGen(logGenCount):
     return logLine, logGenCount
 
 
-N = 10000
+N = 100
+
+logFile = '../telegraf-1.12.3_windows_amd64/telegraf/test.log'
+newLogFile = '../telegraf-1.12.3_windows_amd64/telegraf/test_run_id.log'
+
+logFile = './test.log'
+newLogFile = './test_run_id.log'
+run_id = 1
+
 for i in range(N):
     log, logGenCount = logGen(logGenCount)
-    outFile = open("test.log", "a")
+    outFile = open(logFile, "a")
     outFile.write(log+'\n')
     outFile.close()
+    inject_run_id(logFile, newLogFile, run_id)
     print(log)
     time.sleep(random.randrange (100,500,10)/1000)
