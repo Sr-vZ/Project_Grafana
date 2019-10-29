@@ -67,13 +67,13 @@ def logGen(logGenCount):
     return logLine, logGenCount
 
 
-N = 100
+N = 1000
 
 logFile = '../telegraf-1.12.3_windows_amd64/telegraf/test.log'
 newLogFile = '../telegraf-1.12.3_windows_amd64/telegraf/test_run_id.log'
 
-logFile = './test.log'
-newLogFile = './test_run_id.log'
+# logFile = './test.log'
+# newLogFile = './test_run_id.log'
 run_id = 1
 
 for i in range(N):
