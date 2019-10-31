@@ -11,7 +11,12 @@ def inject_run_id(existinglogFile, newLogFile,run_id):
     #             # run_id = run_id + 1
     #             outFile.write(line.rstrip('\n') + " Run_ID : " + str(run_id) + '\n')
     lineList = inFile.readlines()
-    line = lineList[len(lineList)-1]
+    # print(lineList)
+    if len(lineList) > 0:
+        line = lineList[len(lineList)-1]
+    else:
+        line = lineList[0]
+    # line = lineList[len(lineList)]
     outFile.write(line.rstrip('\n') + " Run_ID : " + str(run_id) + '\n')
     inFile.close()
     outFile.close()

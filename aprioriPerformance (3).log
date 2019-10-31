@@ -1,0 +1,257 @@
+2019-08-01 16:36:33,258  INFO Performance:270 - Starting  : [action:Spatial conversion] SOLIDWORKS PART k:\scratch\demo parts\sheet metal\sheet metal custom 3.sldprt using Direct Reader out of process
+2019-08-01 16:36:36,473  INFO Performance:270 - Completed : [action:Spatial conversion] (3.21 seconds) used memory:306mb (0) available:3789mb (0) safety margin:3714mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:36:36,506  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.1.1.2\tmp\acis\work\sheet metal custom 3.sat
+2019-08-01 16:36:36,554  INFO Performance:270 - Completed : [action:Spatial part load ] (0.05 seconds) used memory:309mb (0) available:3786mb (0) safety margin:3711mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:36:36,565  INFO Performance:270 - Starting  : [action:open on: Part-SHEET METAL CUSTOM 3.Initial] 
+2019-08-01 16:36:36,724  INFO Performance:270 - Starting  : [action:save on: Part-SHEET METAL CUSTOM 3.Initial] 
+2019-08-01 16:36:36,739  INFO Performance:270 - Starting  : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.Web3DImage.null.0
+2019-08-01 16:36:36,747 ERROR Performance:318 - Failed    : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.Web3DImage.null.0
+2019-08-01 16:36:36,886  INFO Performance:270 - Completed : [action:save on: Part-SHEET METAL CUSTOM 3.Initial] (0.16 seconds) used memory:363mb (+21) available:3732mb (-21) safety margin:3657mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:36:36,940  INFO Performance:270 - Starting  : [action:Create 3D image] Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:36:37,381  INFO Performance:270 - Completed : [action:Create 3D image] (0.44 seconds) used memory:370mb (+4) available:3725mb (-4) safety margin:3650mb est JVM size:571mb (0) max JVM size:4096mb Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:36:37,381  INFO Performance:270 - Completed : [action:open on: Part-SHEET METAL CUSTOM 3.Initial] (0.82 seconds) used memory:370mb (+60) available:3725mb (-60) safety margin:3650mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:36:37,386  INFO Performance:270 - Starting  : [action:save on: Part-SHEET METAL CUSTOM 3.Initial] 
+2019-08-01 16:36:37,397  INFO Performance:270 - Starting  : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.Web3DImage.null.0
+2019-08-01 16:36:37,398 ERROR Performance:318 - Failed    : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.Web3DImage.null.0
+2019-08-01 16:36:37,485  INFO Performance:270 - Completed : [action:save on: Part-SHEET METAL CUSTOM 3.Initial] (0.1 seconds) used memory:375mb (+4) available:3720mb (-4) safety margin:3645mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:36:40,444  INFO Performance:270 - Starting  : [action:build-image-panel on: Part-SHEET METAL CUSTOM 3.Initial] 
+2019-08-01 16:36:40,448  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:36:40,449  INFO Performance:270 - Starting  : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.3DImage.f7262459-35b8-4f8c-8b74-31cc62e6a6c7.1564691796941
+2019-08-01 16:36:40,464  INFO Performance:270 - Completed : [action:load-image on: Part-SHEET METAL CUSTOM 3] (0.02 seconds) used memory:336mb (+1) available:3759mb (-1) safety margin:3684mb est JVM size:571mb (0) max JVM size:4096mb  length:1388  effective charsPerSecond:92533.33333333334 from database
+2019-08-01 16:36:40,465  INFO Performance:270 - Starting  : [action:inflate-image on: Part-SHEET METAL CUSTOM 3] 
+2019-08-01 16:36:40,465  INFO Performance:270 - Completed : [action:inflate-image on: Part-SHEET METAL CUSTOM 3] (0.0 seconds) used memory:336mb (0) available:3759mb (0) safety margin:3684mb est JVM size:571mb (0) max JVM size:4096mb  length:1388  effective charsPerSecond:1388000.0 from hibernate (database)
+2019-08-01 16:36:40,486  INFO Performance:270 - Completed : [action:Parse 3D image] (0.04 seconds) used memory:337mb (+2) available:3758mb (-2) safety margin:3683mb est JVM size:571mb (0) max JVM size:4096mb Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:36:40,486  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:36:40,488  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:338mb (0) available:3757mb (0) safety margin:3682mb est JVM size:571mb (0) max JVM size:4096mb Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:36:40,597  INFO Performance:270 - Completed : [action:build-image-panel on: Part-SHEET METAL CUSTOM 3.Initial] (0.15 seconds) used memory:342mb (+7) available:3753mb (-7) safety margin:3678mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:36:41,066  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-08-01 16:36:41,093  INFO Performance:270 - Completed : [action:Build cost table rows] (0.03 seconds) used memory:364mb (+4) available:3731mb (-4) safety margin:3656mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:43,771  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-08-01 16:37:43,777  INFO Performance:270 - Completed : [action:Build cost table rows] (0.01 seconds) used memory:435mb (0) available:3660mb (0) safety margin:3585mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:45,048  INFO Performance:270 - Starting  : [action:populate-GCD on: Part-SHEET METAL CUSTOM 3.Initial]  processGroup:Sheet Metal
+2019-08-01 16:37:45,182  INFO Performance:270 - Starting  : [action:GCD Extraction] Extraction started
+2019-08-01 16:37:45,259  INFO Performance:270 - Starting  : [action:FbcModel.initModel] 
+2019-08-01 16:37:45,259  INFO Performance:270 - Starting  : [action:Load native model] 
+2019-08-01 16:37:45,281  INFO Performance:270 - Completed : [action:Load native model] (0.02 seconds) used memory:303mb (+6) available:3792mb (-6) safety margin:3717mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:45,288  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Load native surfaces
+2019-08-01 16:37:45,336  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.05 seconds) used memory:313mb (+9) available:3782mb (-9) safety margin:3707mb est JVM size:571mb (0) max JVM size:4096mb Load native surfaces
+2019-08-01 16:37:45,336  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Load native tessellation
+2019-08-01 16:37:45,363  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.03 seconds) used memory:315mb (+2) available:3780mb (-2) safety margin:3705mb est JVM size:571mb (0) max JVM size:4096mb Load native tessellation
+2019-08-01 16:37:45,371  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Fit analytic surfaces
+2019-08-01 16:37:45,375  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.0 seconds) used memory:316mb (0) available:3779mb (0) safety margin:3704mb est JVM size:571mb (0) max JVM size:4096mb Fit analytic surfaces
+2019-08-01 16:37:45,376  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Fit arc and line edges
+2019-08-01 16:37:45,379  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.0 seconds) used memory:317mb (0) available:3778mb (0) safety margin:3703mb est JVM size:571mb (0) max JVM size:4096mb Fit arc and line edges
+2019-08-01 16:37:45,379  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Heal tessellation
+2019-08-01 16:37:45,389  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.01 seconds) used memory:318mb (+1) available:3777mb (-1) safety margin:3702mb est JVM size:571mb (0) max JVM size:4096mb Heal tessellation
+2019-08-01 16:37:45,420  INFO Performance:270 - Completed : [action:FbcModel.initModel] (0.16 seconds) used memory:321mb (+25) available:3774mb (-25) safety margin:3699mb est JVM size:571mb (0) max JVM size:4096mb success
+2019-08-01 16:37:45,758  INFO Performance:270 - Starting  : [action:FEA flattening] 
+2019-08-01 16:37:51,155  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.1.1.2\tmp\BSE\work\bseOut\e3365733-3710-46cb-bc84-77c77e1e9098_output.sat
+2019-08-01 16:37:51,164  INFO Performance:270 - Completed : [action:Spatial part load ] (0.01 seconds) used memory:350mb (0) available:3745mb (0) safety margin:3670mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:51,174  INFO Performance:270 - Completed : [action:FEA flattening] (5.42 seconds) used memory:350mb (+5) available:3745mb (-5) safety margin:3670mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:51,595  INFO Performance:270 - Starting  : [action:Axis Detector)] Axes Candidates Computation
+2019-08-01 16:37:51,603  INFO Performance:270 - Starting  : [action:computeUnfaceablePlanes] 
+2019-08-01 16:37:51,612  INFO Performance:270 - Completed : [action:computeUnfaceablePlanes] (0.01 seconds) used memory:383mb (0) available:3712mb (0) safety margin:3637mb est JVM size:571mb (0) max JVM size:4096mb success
+2019-08-01 16:37:51,637  INFO Performance:270 - Completed : [action:Axis Detector)] (0.04 seconds) used memory:385mb (+2) available:3710mb (-2) safety margin:3635mb est JVM size:571mb (0) max JVM size:4096mb Axes Candidates Computation
+2019-08-01 16:37:51,638  INFO Performance:270 - Starting  : [action:Compute axes)] Setup Axes Computation
+2019-08-01 16:37:51,670  INFO Performance:270 - Completed : [action:Compute axes)] (0.03 seconds) used memory:390mb (+4) available:3705mb (-4) safety margin:3630mb est JVM size:571mb (0) max JVM size:4096mb Setup Axes Computation
+2019-08-01 16:37:51,672  INFO Performance:270 - Starting  : [action:Face Finishing Artifacts Creation] 
+2019-08-01 16:37:51,721  INFO Performance:270 - Completed : [action:Face Finishing Artifacts Creation] (0.05 seconds) used memory:393mb (+3) available:3702mb (-3) safety margin:3627mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:51,728  INFO Performance:270 - Starting  : [action:Creating IsFilletOfRelations] 
+2019-08-01 16:37:51,732  INFO Performance:270 - Completed : [action:Creating IsFilletOfRelations] (0.0 seconds) used memory:394mb (0) available:3701mb (0) safety margin:3626mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:51,743  INFO Performance:270 - Starting  : [action:Lies Near Distance Computation] 
+2019-08-01 16:37:51,744  INFO Performance:270 - Completed : [action:Lies Near Distance Computation] (0.0 seconds) used memory:395mb (0) available:3700mb (0) safety margin:3625mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:51,819  INFO Performance:270 - Completed : [action:GCD Extraction] (6.64 seconds) used memory:400mb (+115) available:3695mb (-115) safety margin:3620mb est JVM size:571mb (0) max JVM size:4096mb Extraction completed
+2019-08-01 16:37:51,820  INFO Performance:270 - Starting  : [action:compute-image on: Part-SHEET METAL CUSTOM 3.Initial]  modelRef:Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:51,903  INFO Performance:270 - Completed : [action:compute-image on: Part-SHEET METAL CUSTOM 3.Initial] (0.08 seconds) used memory:405mb (+5) available:3690mb (-5) safety margin:3615mb est JVM size:571mb (0) max JVM size:4096mb  modelRef:Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:51,904  INFO Performance:270 - Starting  : [action:match-GCD on: Part-SHEET METAL CUSTOM 3.Initial]  modelRef:Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:51,962  INFO Performance:270 - Completed : [action:match-GCD on: Part-SHEET METAL CUSTOM 3.Initial] (0.06 seconds) used memory:410mb (+4) available:3685mb (-4) safety margin:3610mb est JVM size:571mb (0) max JVM size:4096mb  modelRef:Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:51,967  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:51,967  INFO Performance:270 - Starting  : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.3DImage.dc8d986e-5a5b-4f76-81b0-4619760582bd.1564691871877
+2019-08-01 16:37:51,968  INFO Performance:270 - Completed : [action:load-image on: Part-SHEET METAL CUSTOM 3] (0.0 seconds) used memory:410mb (0) available:3685mb (0) safety margin:3610mb est JVM size:571mb (0) max JVM size:4096mb  length:0 from disk
+2019-08-01 16:37:51,979  INFO Performance:270 - Completed : [action:Parse 3D image] (0.01 seconds) used memory:411mb (0) available:3684mb (0) safety margin:3609mb est JVM size:571mb (0) max JVM size:4096mb Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:51,979  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:51,980  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:411mb (0) available:3684mb (0) safety margin:3609mb est JVM size:571mb (0) max JVM size:4096mb Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:52,104  INFO Performance:270 - Completed : [action:populate-GCD on: Part-SHEET METAL CUSTOM 3.Initial] (7.06 seconds) used memory:411mb (+116) available:3684mb (-116) safety margin:3609mb est JVM size:571mb (0) max JVM size:4096mb  processGroup:Sheet Metal
+2019-08-01 16:37:52,312  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-08-01 16:37:52,315  INFO Performance:270 - Completed : [action:Build cost table rows] (0.0 seconds) used memory:451mb (0) available:3644mb (0) safety margin:3569mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:37:52,319  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:52,320  INFO Performance:270 - Starting  : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.3DImage.dc8d986e-5a5b-4f76-81b0-4619760582bd.1564691871877
+2019-08-01 16:37:52,320  INFO Performance:270 - Completed : [action:load-image on: Part-SHEET METAL CUSTOM 3] (0.0 seconds) used memory:452mb (0) available:3643mb (0) safety margin:3568mb est JVM size:571mb (0) max JVM size:4096mb  length:0 from disk
+2019-08-01 16:37:52,329  INFO Performance:270 - Completed : [action:Parse 3D image] (0.01 seconds) used memory:453mb (0) available:3642mb (0) safety margin:3567mb est JVM size:571mb (0) max JVM size:4096mb Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:52,329  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:52,329  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:453mb (0) available:3642mb (0) safety margin:3567mb est JVM size:571mb (0) max JVM size:4096mb Part-SHEET METAL CUSTOM 3.Initial
+2019-08-01 16:37:53,153  INFO Performance:270 - Starting  : [action:calc-cost on: Part-SHEET METAL CUSTOM 3.Initial] 
+2019-08-01 16:38:10,778  INFO Performance:270 - Completed : [action:calc-cost on: Part-SHEET METAL CUSTOM 3.Initial] (17.63 seconds) used memory:348mb (+76) available:3747mb (-76) safety margin:3672mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-01 16:38:10,996  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-08-01 16:38:11,055  INFO Performance:270 - Completed : [action:Build cost table rows] (0.06 seconds) used memory:336mb (+5) available:3759mb (-5) safety margin:3684mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-08-02 08:55:40,793  INFO Performance:270 - Starting  : [action:save on: Part-SHEET METAL CUSTOM 3.Initial] 
+2019-08-02 08:55:40,794  INFO Performance:270 - Starting  : [action:serialize-GCD on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.Sheet Metal.5a042752-d6ce-4ac4-a05d-aab51f29a64f.1564750540794
+2019-08-02 08:55:40,893  INFO Performance:270 - Completed : [action:serialize-GCD on: Part-SHEET METAL CUSTOM 3] (0.1 seconds) used memory:415mb (+9) available:3680mb (-9) safety margin:3605mb est JVM size:571mb (0) max JVM size:4096mb  with key: Part-SHEET METAL CUSTOM 3.Sheet Metal.5a042752-d6ce-4ac4-a05d-aab51f29a64f.1564750540794 length:13468  effective charsPerSecond:136040.40404040404
+2019-08-02 08:55:40,903  INFO Performance:270 - Starting  : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.Web3DImage.null.0
+2019-08-02 08:55:40,904 ERROR Performance:318 - Failed    : [action:load-image on: Part-SHEET METAL CUSTOM 3]  with key: Part-SHEET METAL CUSTOM 3.Web3DImage.null.0
+2019-08-02 08:55:41,301  INFO Performance:270 - Completed : [action:save on: Part-SHEET METAL CUSTOM 3.Initial] (0.51 seconds) used memory:439mb (+33) available:3656mb (-33) safety margin:3581mb est JVM size:571mb (0) max JVM size:4096mb 
+2019-09-05 09:20:04,540  INFO Performance:270 - Starting  : [action:Spatial conversion] SOLIDWORKS PART k:\scratch\demo parts\sheet metal\ap_sheetmtl_exercise_el0000.sldprt using Direct Reader out of process
+2019-09-05 09:20:06,730  INFO Performance:270 - Completed : [action:Spatial conversion] (2.19 seconds) used memory:337mb (0) available:3758mb (0) safety margin:3683mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:06,758  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.1.1.2\tmp\acis\work\ap_sheetmtl_exercise_EL0000.sat
+2019-09-05 09:20:06,775  INFO Performance:270 - Completed : [action:Spatial part load ] (0.02 seconds) used memory:340mb (0) available:3755mb (0) safety margin:3680mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:06,793  INFO Performance:270 - Starting  : [action:open on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:20:06,896  INFO Performance:270 - Starting  : [action:save on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:20:06,924  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:20:06,942 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:20:07,138  INFO Performance:270 - Completed : [action:save on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (0.24 seconds) used memory:374mb (+22) available:3721mb (-22) safety margin:3646mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:07,198  INFO Performance:270 - Starting  : [action:Create 3D image] Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:07,639  INFO Performance:270 - Completed : [action:Create 3D image] (0.44 seconds) used memory:381mb (+4) available:3714mb (-4) safety margin:3639mb est JVM size:536mb (0) max JVM size:4096mb Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:07,640  INFO Performance:270 - Completed : [action:open on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (0.85 seconds) used memory:381mb (+40) available:3714mb (-40) safety margin:3639mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:07,646  INFO Performance:270 - Starting  : [action:save on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:20:07,657  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:20:07,658 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:20:07,780  INFO Performance:270 - Completed : [action:save on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (0.13 seconds) used memory:384mb (+3) available:3711mb (-3) safety margin:3636mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:10,262  INFO Performance:270 - Starting  : [action:build-image-panel on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:20:10,269  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:10,269  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.3DImage.68f3968b-784d-4415-82b3-31b57a429cf8.1567689607199
+2019-09-05 09:20:10,286  INFO Performance:270 - Completed : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000] (0.02 seconds) used memory:360mb (+1) available:3735mb (-1) safety margin:3660mb est JVM size:536mb (0) max JVM size:4096mb  length:4532  effective charsPerSecond:266588.23529411765 from database
+2019-09-05 09:20:10,287  INFO Performance:270 - Starting  : [action:inflate-image on: Part-AP_SHEETMTL_EXERCISE_EL0000] 
+2019-09-05 09:20:10,288  INFO Performance:270 - Completed : [action:inflate-image on: Part-AP_SHEETMTL_EXERCISE_EL0000] (0.0 seconds) used memory:360mb (0) available:3735mb (0) safety margin:3660mb est JVM size:536mb (0) max JVM size:4096mb  length:4532  effective charsPerSecond:4532000.0 from hibernate (database)
+2019-09-05 09:20:10,316  INFO Performance:270 - Completed : [action:Parse 3D image] (0.05 seconds) used memory:361mb (+1) available:3734mb (-1) safety margin:3659mb est JVM size:536mb (0) max JVM size:4096mb Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:10,317  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:10,319  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:361mb (0) available:3734mb (0) safety margin:3659mb est JVM size:536mb (0) max JVM size:4096mb Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:10,427  INFO Performance:270 - Completed : [action:build-image-panel on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (0.17 seconds) used memory:365mb (+6) available:3730mb (-6) safety margin:3655mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:10,952  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:20:10,976  INFO Performance:270 - Completed : [action:Build cost table rows] (0.02 seconds) used memory:389mb (+4) available:3706mb (-4) safety margin:3631mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:21,395  INFO Performance:270 - Starting  : [action:populate-GCD on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial]  processGroup:Sheet Metal
+2019-09-05 09:20:21,518  INFO Performance:270 - Starting  : [action:GCD Extraction] Extraction started
+2019-09-05 09:20:21,586  INFO Performance:270 - Starting  : [action:FbcModel.initModel] 
+2019-09-05 09:20:21,586  INFO Performance:270 - Starting  : [action:Load native model] 
+2019-09-05 09:20:21,611  INFO Performance:270 - Completed : [action:Load native model] (0.03 seconds) used memory:343mb (+1) available:3752mb (-1) safety margin:3677mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:21,621  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Load native surfaces
+2019-09-05 09:20:21,682  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.06 seconds) used memory:346mb (+3) available:3749mb (-3) safety margin:3674mb est JVM size:536mb (0) max JVM size:4096mb Load native surfaces
+2019-09-05 09:20:21,682  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Load native tessellation
+2019-09-05 09:20:21,715  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.03 seconds) used memory:348mb (+1) available:3747mb (-1) safety margin:3672mb est JVM size:536mb (0) max JVM size:4096mb Load native tessellation
+2019-09-05 09:20:21,723  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Fit analytic surfaces
+2019-09-05 09:20:21,730  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.01 seconds) used memory:349mb (0) available:3746mb (0) safety margin:3671mb est JVM size:536mb (0) max JVM size:4096mb Fit analytic surfaces
+2019-09-05 09:20:21,731  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Fit arc and line edges
+2019-09-05 09:20:21,734  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.0 seconds) used memory:349mb (0) available:3746mb (0) safety margin:3671mb est JVM size:536mb (0) max JVM size:4096mb Fit arc and line edges
+2019-09-05 09:20:21,734  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Heal tessellation
+2019-09-05 09:20:21,751  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.02 seconds) used memory:351mb (+1) available:3744mb (-1) safety margin:3669mb est JVM size:536mb (0) max JVM size:4096mb Heal tessellation
+2019-09-05 09:20:21,803  INFO Performance:270 - Completed : [action:FbcModel.initModel] (0.22 seconds) used memory:355mb (+12) available:3740mb (-12) safety margin:3665mb est JVM size:536mb (0) max JVM size:4096mb success
+2019-09-05 09:20:22,385  INFO Performance:270 - Starting  : [action:FEA flattening] 
+2019-09-05 09:20:26,814  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.1.1.2\tmp\BSE\work\bseOut\09bd017f-995c-4d1d-839f-22740a692b8a_output.sat
+2019-09-05 09:20:26,821  INFO Performance:270 - Completed : [action:Spatial part load ] (0.01 seconds) used memory:389mb (0) available:3706mb (0) safety margin:3631mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:26,836  INFO Performance:270 - Completed : [action:FEA flattening] (4.45 seconds) used memory:389mb (+3) available:3706mb (-3) safety margin:3631mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:27,337  INFO Performance:270 - Starting  : [action:Axis Detector)] Axes Candidates Computation
+2019-09-05 09:20:27,355  INFO Performance:270 - Starting  : [action:computeUnfaceablePlanes] 
+2019-09-05 09:20:27,371  INFO Performance:270 - Completed : [action:computeUnfaceablePlanes] (0.02 seconds) used memory:420mb (+1) available:3675mb (-1) safety margin:3600mb est JVM size:536mb (0) max JVM size:4096mb success
+2019-09-05 09:20:27,414  INFO Performance:270 - Completed : [action:Axis Detector)] (0.08 seconds) used memory:422mb (+4) available:3673mb (-4) safety margin:3598mb est JVM size:536mb (0) max JVM size:4096mb Axes Candidates Computation
+2019-09-05 09:20:27,415  INFO Performance:270 - Starting  : [action:Compute axes)] Setup Axes Computation
+2019-09-05 09:20:27,488  INFO Performance:270 - Completed : [action:Compute axes)] (0.07 seconds) used memory:428mb (+6) available:3667mb (-6) safety margin:3592mb est JVM size:536mb (0) max JVM size:4096mb Setup Axes Computation
+2019-09-05 09:20:27,490  INFO Performance:270 - Starting  : [action:Face Finishing Artifacts Creation] 
+2019-09-05 09:20:27,641  INFO Performance:270 - Completed : [action:Face Finishing Artifacts Creation] (0.15 seconds) used memory:436mb (+6) available:3659mb (-6) safety margin:3584mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:27,649  INFO Performance:270 - Starting  : [action:Creating IsFilletOfRelations] 
+2019-09-05 09:20:27,662  INFO Performance:270 - Completed : [action:Creating IsFilletOfRelations] (0.01 seconds) used memory:437mb (0) available:3658mb (0) safety margin:3583mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:27,685  INFO Performance:270 - Starting  : [action:Lies Near Distance Computation] 
+2019-09-05 09:20:27,689  INFO Performance:270 - Completed : [action:Lies Near Distance Computation] (0.0 seconds) used memory:439mb (0) available:3656mb (0) safety margin:3581mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:27,828  INFO Performance:270 - Completed : [action:GCD Extraction] (6.31 seconds) used memory:446mb (+107) available:3649mb (-107) safety margin:3574mb est JVM size:536mb (0) max JVM size:4096mb Extraction completed
+2019-09-05 09:20:27,830  INFO Performance:270 - Starting  : [action:compute-image on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial]  modelRef:Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:27,961  INFO Performance:270 - Completed : [action:compute-image on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (0.13 seconds) used memory:277mb (-169) available:3818mb (+169) safety margin:3743mb est JVM size:536mb (0) max JVM size:4096mb  modelRef:Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:27,962  INFO Performance:270 - Starting  : [action:match-GCD on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial]  modelRef:Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:28,048  INFO Performance:270 - Completed : [action:match-GCD on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (0.09 seconds) used memory:282mb (+5) available:3813mb (-5) safety margin:3738mb est JVM size:536mb (0) max JVM size:4096mb  modelRef:Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:28,054  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:28,054  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.3DImage.12f79b5b-1f2b-48d6-874c-18a0b36972d3.1567689627928
+2019-09-05 09:20:28,055  INFO Performance:270 - Completed : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000] (0.0 seconds) used memory:283mb (0) available:3812mb (0) safety margin:3737mb est JVM size:536mb (0) max JVM size:4096mb  length:0 from disk
+2019-09-05 09:20:28,077  INFO Performance:270 - Completed : [action:Parse 3D image] (0.02 seconds) used memory:284mb (+1) available:3811mb (-1) safety margin:3736mb est JVM size:536mb (0) max JVM size:4096mb Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:28,078  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:28,078  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:284mb (0) available:3811mb (0) safety margin:3736mb est JVM size:536mb (0) max JVM size:4096mb Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:28,186  INFO Performance:270 - Completed : [action:populate-GCD on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (6.79 seconds) used memory:285mb (-45) available:3810mb (+45) safety margin:3735mb est JVM size:536mb (0) max JVM size:4096mb  processGroup:Sheet Metal
+2019-09-05 09:20:28,289  INFO Performance:270 - Starting  : [action:calc-cost on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:20:37,691  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:20:37,696  INFO Performance:270 - Completed : [action:Build cost table rows] (0.01 seconds) used memory:351mb (0) available:3744mb (0) safety margin:3669mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:37,701  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:37,701  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.3DImage.12f79b5b-1f2b-48d6-874c-18a0b36972d3.1567689627928
+2019-09-05 09:20:37,702  INFO Performance:270 - Completed : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000] (0.0 seconds) used memory:351mb (0) available:3744mb (0) safety margin:3669mb est JVM size:536mb (0) max JVM size:4096mb  length:0 from disk
+2019-09-05 09:20:37,723  INFO Performance:270 - Completed : [action:Parse 3D image] (0.02 seconds) used memory:353mb (+1) available:3742mb (-1) safety margin:3667mb est JVM size:536mb (0) max JVM size:4096mb Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:37,723  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:37,724  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:353mb (0) available:3742mb (0) safety margin:3667mb est JVM size:536mb (0) max JVM size:4096mb Part-AP_SHEETMTL_EXERCISE_EL0000.Initial
+2019-09-05 09:20:38,177  INFO Performance:270 - Starting  : [action:save on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:20:38,178  INFO Performance:270 - Starting  : [action:serialize-GCD on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Sheet Metal.213da931-314e-4378-add6-65a0c3fe74f5.1567689638177
+2019-09-05 09:20:38,379  INFO Performance:270 - Completed : [action:serialize-GCD on: Part-AP_SHEETMTL_EXERCISE_EL0000] (0.2 seconds) used memory:399mb (+15) available:3696mb (-15) safety margin:3621mb est JVM size:536mb (0) max JVM size:4096mb  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Sheet Metal.213da931-314e-4378-add6-65a0c3fe74f5.1567689638177 length:27928  effective charsPerSecond:138257.42574257424
+2019-09-05 09:20:38,384  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:20:38,385 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:20:38,558  INFO Performance:270 - Completed : [action:save on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (0.38 seconds) used memory:407mb (+23) available:3688mb (-23) safety margin:3613mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:38,973  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:20:38,975  INFO Performance:270 - Completed : [action:Build cost table rows] (0.0 seconds) used memory:437mb (0) available:3658mb (0) safety margin:3583mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:20:39,469  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:20:39,472  INFO Performance:270 - Completed : [action:Build cost table rows] (0.0 seconds) used memory:282mb (0) available:3813mb (0) safety margin:3738mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:21:02,388  INFO Performance:270 - Starting  : [action:calc-cost on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:21:10,641  INFO Performance:270 - Completed : [action:calc-cost on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (8.25 seconds) used memory:428mb (+140) available:3667mb (-140) safety margin:3592mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:21:10,976  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:21:11,015  INFO Performance:270 - Completed : [action:Build cost table rows] (0.04 seconds) used memory:331mb (+4) available:3764mb (-4) safety margin:3689mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:21:52,196  INFO Performance:270 - Starting  : [action:calc-cost on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:21:56,336  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:21:56,338 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:21:56,338  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:21:56,341 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:28,324  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:28,325 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:28,326  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:28,327 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:28,334  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:28,336 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:28,337  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:28,338 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:28,357  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:28,359 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:28,360  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:28,361 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:28,376  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:28,377 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:28,377  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:28,378 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:48,492  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:48,493 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:22:48,493  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:22:48,494 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImageMapping.null.0
+2019-09-05 09:23:41,488  INFO Performance:270 - Completed : [action:calc-cost on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (109.29 seconds) used memory:461mb (+78) available:3634mb (-78) safety margin:3559mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:23:42,508  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:23:42,522  INFO Performance:270 - Completed : [action:Build cost table rows] (0.01 seconds) used memory:332mb (0) available:3763mb (0) safety margin:3688mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:23:53,430  INFO Performance:270 - Starting  : [action:calc-cost on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:23:59,892  INFO Performance:270 - Completed : [action:calc-cost on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (6.46 seconds) used memory:339mb (-45) available:3756mb (+45) safety margin:3681mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:24:00,953  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:24:00,972  INFO Performance:270 - Completed : [action:Build cost table rows] (0.02 seconds) used memory:448mb (0) available:3647mb (0) safety margin:3572mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:58:08,967  INFO Performance:270 - Starting  : [action:save on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] 
+2019-09-05 09:58:08,969  INFO Performance:270 - Starting  : [action:serialize-GCD on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Sheet Metal.88e792c3-ec0b-4b76-9c0d-632d8999bb85.1567691888969
+2019-09-05 09:58:09,031  INFO Performance:270 - Completed : [action:serialize-GCD on: Part-AP_SHEETMTL_EXERCISE_EL0000] (0.06 seconds) used memory:408mb (+6) available:3687mb (-6) safety margin:3612mb est JVM size:536mb (0) max JVM size:4096mb  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Sheet Metal.88e792c3-ec0b-4b76-9c0d-632d8999bb85.1567691888969 length:27924  effective charsPerSecond:450387.0967741936
+2019-09-05 09:58:09,037  INFO Performance:270 - Starting  : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:58:09,040 ERROR Performance:318 - Failed    : [action:load-image on: Part-AP_SHEETMTL_EXERCISE_EL0000]  with key: Part-AP_SHEETMTL_EXERCISE_EL0000.Web3DImage.null.0
+2019-09-05 09:58:09,458  INFO Performance:270 - Completed : [action:save on: Part-AP_SHEETMTL_EXERCISE_EL0000.Initial] (0.49 seconds) used memory:438mb (+36) available:3657mb (-36) safety margin:3582mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:58:10,483  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:58:10,500  INFO Performance:270 - Completed : [action:Build cost table rows] (0.02 seconds) used memory:342mb (+1) available:3753mb (-1) safety margin:3678mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:58:11,389  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:58:11,399  INFO Performance:270 - Completed : [action:Build cost table rows] (0.01 seconds) used memory:355mb (+1) available:3740mb (-1) safety margin:3665mb est JVM size:536mb (0) max JVM size:4096mb 
+2019-09-05 09:58:59,754  INFO Performance:270 - Starting  : [action:Spatial conversion] CATIA PART c:\users\kpatel\onedrive - apriori\documents\parts\d009203_31697110_lifting_cylinder.catpart using Direct Reader in process
+2019-09-05 09:59:13,574  INFO Performance:270 - Completed : [action:Spatial conversion] (13.82 seconds) used memory:262mb (+7) available:3833mb (-7) safety margin:3758mb est JVM size:510mb (0) max JVM size:4096mb 
+2019-09-05 09:59:13,604  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.1.1.2\tmp\acis\work\D009203_31697110_LIFTING_CYLINDER.sat
+2019-09-05 09:59:14,083  INFO Performance:270 - Completed : [action:Spatial part load ] (0.48 seconds) used memory:265mb (0) available:3830mb (0) safety margin:3755mb est JVM size:510mb (0) max JVM size:4096mb 
+2019-09-05 09:59:14,097  INFO Performance:270 - Starting  : [action:open on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-09-05 09:59:14,172  INFO Performance:270 - Starting  : [action:save on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-09-05 09:59:14,185  INFO Performance:270 - Starting  : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.Web3DImage.null.0
+2019-09-05 09:59:14,193 ERROR Performance:318 - Failed    : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.Web3DImage.null.0
+2019-09-05 09:59:14,377  INFO Performance:270 - Completed : [action:save on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.21 seconds) used memory:298mb (+20) available:3797mb (-20) safety margin:3722mb est JVM size:510mb (0) max JVM size:4096mb 
+2019-09-05 09:59:14,419  INFO Performance:270 - Starting  : [action:Create 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-09-05 09:59:15,100  INFO Performance:270 - Completed : [action:Create 3D image] (0.68 seconds) used memory:309mb (+8) available:3786mb (-8) safety margin:3711mb est JVM size:510mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-09-05 09:59:15,100  INFO Performance:270 - Completed : [action:open on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (1.0 seconds) used memory:309mb (+43) available:3786mb (-43) safety margin:3711mb est JVM size:510mb (0) max JVM size:4096mb 
+2019-09-05 09:59:15,105  INFO Performance:270 - Starting  : [action:save on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-09-05 09:59:15,114  INFO Performance:270 - Starting  : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.Web3DImage.null.0
+2019-09-05 09:59:15,115 ERROR Performance:318 - Failed    : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.Web3DImage.null.0
+2019-09-05 09:59:15,240  INFO Performance:270 - Completed : [action:save on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.14 seconds) used memory:322mb (+11) available:3773mb (-11) safety margin:3698mb est JVM size:510mb (0) max JVM size:4096mb 
+2019-09-05 09:59:22,855  INFO Performance:270 - Starting  : [action:build-image-panel on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-09-05 09:59:22,860  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-09-05 09:59:22,860  INFO Performance:270 - Starting  : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.3DImage.5812e875-62ed-4bb5-8cf6-7acea8d9757d.1567691954420
+2019-09-05 09:59:22,881  INFO Performance:270 - Completed : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER] (0.02 seconds) used memory:278mb (+1) available:3817mb (-1) safety margin:3742mb est JVM size:539mb (0) max JVM size:4096mb  length:117588  effective charsPerSecond:5879400.0 from database
+2019-09-05 09:59:22,881  INFO Performance:270 - Starting  : [action:inflate-image on: Part-D009203_31697110_LIFTING_CYLINDER] 
+2019-09-05 09:59:22,882  INFO Performance:270 - Completed : [action:inflate-image on: Part-D009203_31697110_LIFTING_CYLINDER] (0.0 seconds) used memory:278mb (0) available:3817mb (0) safety margin:3742mb est JVM size:539mb (0) max JVM size:4096mb  length:117588  effective charsPerSecond:1.17588E8 from hibernate (database)
+2019-09-05 09:59:22,896  INFO Performance:270 - Completed : [action:Parse 3D image] (0.04 seconds) used memory:279mb (+3) available:3816mb (-3) safety margin:3741mb est JVM size:539mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-09-05 09:59:22,896  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-09-05 09:59:22,898  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:279mb (0) available:3816mb (0) safety margin:3741mb est JVM size:539mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-09-05 09:59:22,991  INFO Performance:270 - Completed : [action:build-image-panel on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.14 seconds) used memory:284mb (+9) available:3811mb (-9) safety margin:3736mb est JVM size:539mb (0) max JVM size:4096mb 
+2019-09-05 09:59:23,607  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-09-05 09:59:23,631  INFO Performance:270 - Completed : [action:Build cost table rows] (0.02 seconds) used memory:309mb (+5) available:3786mb (-5) safety margin:3711mb est JVM size:539mb (0) max JVM size:4096mb 

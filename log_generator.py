@@ -1,6 +1,7 @@
 import datetime
 import random
 import time
+import os
 from inject_run_id import inject_run_id
 # ts = datetime.datetime.now().timestamp().isoformat()
 # 
@@ -72,15 +73,47 @@ N = 1000
 logFile = '../telegraf-1.12.3_windows_amd64/telegraf/test.log'
 newLogFile = '../telegraf-1.12.3_windows_amd64/telegraf/test_run_id.log'
 
-# logFile = './test.log'
-# newLogFile = './test_run_id.log'
+logFile = './test.log'
+newLogFile = './test_run_id.log'
 run_id = 1
 
-for i in range(N):
-    log, logGenCount = logGen(logGenCount)
-    outFile = open(logFile, "a")
-    outFile.write(log+'\n')
-    outFile.close()
-    inject_run_id(logFile, newLogFile, run_id)
-    print(log)
-    time.sleep(random.randrange (100,500,10)/1000)
+# entries = os.listdir('./')
+# print(entries)
+mergedLogfile = './mergedTest.log'
+
+with os.scandir('./') as entries:
+    for entry in entries:
+        # if '.log' in entry.name and not entry.name == logFile.lstrip('./') and not entry.name == newLogFile.lstrip('./'):
+        if '.log' in entry.name and 'aprioriPerformance' in entry.name:
+            logFile = './' + entry.name
+            res = ''.join(filter(str.isdigit, logFile))
+            print('Processing.... ', entry.name)
+            # print(res)
+            if res:
+                run_id = res
+            else:
+                run_id = 0
+            inFile = open(logFile, "r")            
+            for line in inFile:
+                print(line)
+                outFile = open(mergedLogfile, "a")
+                outFile.write(line)
+                outFile.close()
+                inject_run_id(mergedLogfile, newLogFile, run_id)
+                
+            
+            
+
+
+
+
+
+
+# for i in range(N):
+#     log, logGenCount = logGen(logGenCount)
+#     outFile = open(logFile, "a")
+#     outFile.write(log+'\n')
+#     outFile.close()
+#     inject_run_id(logFile, newLogFile, run_id)
+#     print(log)
+#     time.sleep(random.randrange (100,500,10)/1000)
