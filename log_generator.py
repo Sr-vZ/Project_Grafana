@@ -73,15 +73,18 @@ N = 1000
 logFile = '../telegraf-1.12.3_windows_amd64/telegraf/test.log'
 newLogFile = '../telegraf-1.12.3_windows_amd64/telegraf/test_run_id.log'
 
-logFile = './test.log'
-newLogFile = './test_run_id.log'
+# logFile = './test.log'
+# newLogFile = './test_run_id.log'
 run_id = 1
 
 # entries = os.listdir('./')
 # print(entries)
 mergedLogfile = './mergedTest.log'
 
-with os.scandir('./') as entries:
+path = './'
+
+
+with os.scandir(path) as entries:
     for entry in entries:
         # if '.log' in entry.name and not entry.name == logFile.lstrip('./') and not entry.name == newLogFile.lstrip('./'):
         if '.log' in entry.name and 'aprioriPerformance' in entry.name:
@@ -95,7 +98,7 @@ with os.scandir('./') as entries:
                 run_id = 0
             inFile = open(logFile, "r")            
             for line in inFile:
-                print(line)
+                # print(line)
                 outFile = open(mergedLogfile, "a")
                 outFile.write(line)
                 outFile.close()

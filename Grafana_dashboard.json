@@ -1,21 +1,24 @@
 {
     "annotations": {
-        "list": [{
-            "builtIn": 1,
-            "datasource": "-- Grafana --",
-            "enable": true,
-            "hide": true,
-            "iconColor": "rgba(0, 211, 255, 1)",
-            "name": "Annotations & Alerts",
-            "type": "dashboard"
-        }]
+        "list": [
+            {
+                "builtIn": 1,
+                "datasource": "-- Grafana --",
+                "enable": true,
+                "hide": true,
+                "iconColor": "rgba(0, 211, 255, 1)",
+                "name": "Annotations & Alerts",
+                "type": "dashboard"
+            }
+        ]
     },
     "editable": true,
     "gnetId": null,
     "graphTooltip": 0,
     "id": 2,
     "links": [],
-    "panels": [{
+    "panels": [
+        {
             "aliasColors": {},
             "bars": true,
             "dashLength": 10,
@@ -54,40 +57,79 @@
             "spaceLength": 10,
             "stack": false,
             "steppedLine": false,
-            "targets": [{
-                "groupBy": [{
-                        "params": [
-                            "1s"
-                        ],
-                        "type": "time"
-                    },
-                    {
-                        "params": [
-                            "null"
-                        ],
-                        "type": "fill"
-                    }
-                ],
-                "measurement": "test_metric",
-                "orderByTime": "ASC",
-                "policy": "default",
-                "refId": "A",
-                "resultFormat": "time_series",
-                "select": [
-                    [{
+            "targets": [
+                {
+                    "groupBy": [
+                        {
                             "params": [
-                                "run_dur"
+                                "1h"
                             ],
-                            "type": "field"
+                            "type": "time"
                         },
                         {
-                            "params": [],
-                            "type": "mean"
+                            "params": [
+                                "null"
+                            ],
+                            "type": "fill"
                         }
-                    ]
-                ],
-                "tags": []
-            }],
+                    ],
+                    "measurement": "test_metric",
+                    "orderByTime": "ASC",
+                    "policy": "default",
+                    "refId": "A",
+                    "resultFormat": "time_series",
+                    "select": [
+                        [
+                            {
+                                "params": [
+                                    "run_dur"
+                                ],
+                                "type": "field"
+                            },
+                            {
+                                "params": [],
+                                "type": "mean"
+                            }
+                        ]
+                    ],
+                    "tags": []
+                },
+                {
+                    "groupBy": [
+                        {
+                            "params": [
+                                "$__interval"
+                            ],
+                            "type": "time"
+                        },
+                        {
+                            "params": [
+                                "null"
+                            ],
+                            "type": "fill"
+                        }
+                    ],
+                    "orderByTime": "ASC",
+                    "policy": "default",
+                    "refId": "B",
+                    "resultFormat": "time_series",
+                    "select": [
+                        [
+                            {
+                                "params": [
+                                    "value"
+                                ],
+                                "type": "field"
+                            },
+                            {
+                                "params": [],
+                                "type": "mean"
+                            }
+                        ]
+                    ],
+                    "tags": []
+                }
+            ],
             "thresholds": [],
             "timeFrom": null,
             "timeRegions": [],
@@ -107,7 +149,8 @@
                 "show": true,
                 "values": []
             },
-            "yaxes": [{
+            "yaxes": [
+                {
                     "format": "short",
                     "label": null,
                     "logBase": 1,
@@ -147,7 +190,8 @@
                 "col": 1,
                 "desc": true
             },
-            "styles": [{
+            "styles": [
+                {
                     "alias": "Time",
                     "dateFormat": "YYYY-MM-DD HH:mm:ss",
                     "link": false,
@@ -170,26 +214,30 @@
                     "unit": "short"
                 }
             ],
-            "targets": [{
-                "groupBy": [],
-                "limit": "0",
-                "measurement": "test_metric",
-                "orderByTime": "ASC",
-                "policy": "default",
-                "query": "SELECT \"run_id\" FROM \"test_metric\"\n",
-                "rawQuery": false,
-                "refId": "A",
-                "resultFormat": "table",
-                "select": [
-                    [{
-                        "params": [
-                            "run_id"
-                        ],
-                        "type": "field"
-                    }]
-                ],
-                "tags": []
-            }],
+            "targets": [
+                {
+                    "groupBy": [],
+                    "limit": "0",
+                    "measurement": "test_metric",
+                    "orderByTime": "ASC",
+                    "policy": "default",
+                    "query": "SELECT \"run_id\" FROM \"test_metric\"\n",
+                    "rawQuery": false,
+                    "refId": "A",
+                    "resultFormat": "table",
+                    "select": [
+                        [
+                            {
+                                "params": [
+                                    "run_id"
+                                ],
+                                "type": "field"
+                            }
+                        ]
+                    ],
+                    "tags": []
+                }
+            ],
             "timeFrom": null,
             "timeShift": null,
             "title": "RUN ID Table",
@@ -212,10 +260,11 @@
             "pageSize": null,
             "showHeader": true,
             "sort": {
-                "col": 0,
-                "desc": true
+                "col": 1,
+                "desc": false
             },
-            "styles": [{
+            "styles": [
+                {
                     "alias": "Time",
                     "dateFormat": "YYYY-MM-DD HH:mm:ss",
                     "pattern": "Time",
@@ -236,41 +285,45 @@
                     "unit": "short"
                 }
             ],
-            "targets": [{
-                "alias": "AVG RUN Duration",
-                "groupBy": [{
-                        "params": [
-                            "$__interval"
-                        ],
-                        "type": "time"
-                    },
-                    {
-                        "params": [
-                            "null"
-                        ],
-                        "type": "fill"
-                    }
-                ],
-                "measurement": "test_metric",
-                "orderByTime": "ASC",
-                "policy": "default",
-                "refId": "A",
-                "resultFormat": "time_series",
-                "select": [
-                    [{
+            "targets": [
+                {
+                    "alias": "AVG RUN Duration",
+                    "groupBy": [
+                        {
                             "params": [
-                                "run_dur"
+                                "$__interval"
                             ],
-                            "type": "field"
+                            "type": "time"
                         },
                         {
-                            "params": [],
-                            "type": "mean"
+                            "params": [
+                                "null"
+                            ],
+                            "type": "fill"
                         }
-                    ]
-                ],
-                "tags": []
-            }],
+                    ],
+                    "measurement": "test_metric",
+                    "orderByTime": "ASC",
+                    "policy": "default",
+                    "refId": "A",
+                    "resultFormat": "time_series",
+                    "select": [
+                        [
+                            {
+                                "params": [
+                                    "run_dur"
+                                ],
+                                "type": "field"
+                            },
+                            {
+                                "params": [],
+                                "type": "mean"
+                            }
+                        ]
+                    ],
+                    "tags": []
+                }
+            ],
             "timeFrom": null,
             "timeShift": null,
             "title": "Panel Title",
@@ -293,10 +346,11 @@
             "pageSize": null,
             "showHeader": true,
             "sort": {
-                "col": 0,
-                "desc": true
+                "col": null,
+                "desc": false
             },
-            "styles": [{
+            "styles": [
+                {
                     "alias": "Time",
                     "dateFormat": "YYYY-MM-DD HH:mm:ss",
                     "pattern": "Time",
@@ -317,23 +371,48 @@
                     "unit": "short"
                 }
             ],
-            "targets": [{
-                "groupBy": [],
-                "measurement": "test_metric",
-                "orderByTime": "ASC",
-                "policy": "default",
-                "refId": "A",
-                "resultFormat": "table",
-                "select": [
-                    [{
-                        "params": [
-                            "action"
-                        ],
-                        "type": "field"
-                    }]
-                ],
-                "tags": []
-            }],
+            "targets": [
+                {
+                    "groupBy": [],
+                    "measurement": "test_metric",
+                    "orderByTime": "ASC",
+                    "policy": "default",
+                    "refId": "A",
+                    "resultFormat": "table",
+                    "select": [
+                        [
+                            {
+                                "params": [
+                                    "action"
+                                ],
+                                "type": "field"
+                            }
+                        ]
+                    ],
+                    "tags": [],
+                    "tz": ""
+                },
+                {
+                    "groupBy": [],
+                    "measurement": "test_metric",
+                    "orderByTime": "ASC",
+                    "policy": "default",
+                    "refId": "B",
+                    "resultFormat": "table",
+                    "select": [
+                        [
+                            {
+                                "params": [
+                                    "partname"
+                                ],
+                                "type": "field"
+                            }
+                        ]
+                    ],
+                    "tags": [],
+                    "tz": ""
+                }
+            ],
             "timeFrom": null,
             "timeShift": null,
             "title": "Actions Taken",
@@ -342,7 +421,7 @@
             "type": "table"
         }
     ],
-    "refresh": "1m",
+    "refresh": "1d",
     "schemaVersion": 20,
     "style": "dark",
     "tags": [],
@@ -350,8 +429,8 @@
         "list": []
     },
     "time": {
-        "from": "now-5m",
-        "to": "now"
+        "from": "2019-09-30T18:30:00.000Z",
+        "to": "2019-11-06T18:29:59.000Z"
     },
     "timepicker": {
         "refresh_intervals": [
@@ -368,7 +447,7 @@
         ]
     },
     "timezone": "",
-    "title": "New dashboard Copy Copy",
+    "title": "New dashboard Copy Copy1",
     "uid": "5zsW850Zz",
-    "version": 1
+    "version": 2
 }
