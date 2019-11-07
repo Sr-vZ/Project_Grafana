@@ -1,0 +1,258 @@
+2019-07-19 13:07:06,470  INFO Performance:270 - Starting  : [action:bom-load] starting bomLoad
+2019-07-19 13:07:06,818  INFO Performance:270 - Starting  : [action:save on: Part-RU6238001.edc-bom-1] 
+2019-07-19 13:07:06,818  INFO Performance:270 - Starting  : [action:serialize-GCD on: Part-RU6238001]  with key: Part-RU6238001.User Guided.63bea93b-4114-4a9a-8697-9f4592a3ac99.1563556026818
+2019-07-19 13:07:06,884  INFO Performance:270 - Completed : [action:serialize-GCD on: Part-RU6238001] (0.07 seconds) used memory:436mb (+10) available:3659mb (-10) safety margin:3584mb est JVM size:541mb (0) max JVM size:4096mb  with key: Part-RU6238001.User Guided.63bea93b-4114-4a9a-8697-9f4592a3ac99.1563556026818 length:1292  effective charsPerSecond:19876.923076923078
+2019-07-19 13:07:06,893  INFO Performance:270 - Starting  : [action:load-image on: Part-RU6238001]  with key: Part-RU6238001.Web3DImage.null.0
+2019-07-19 13:07:06,897 ERROR Performance:318 - Failed    : [action:load-image on: Part-RU6238001]  with key: Part-RU6238001.Web3DImage.null.0
+2019-07-19 13:07:07,074  INFO Performance:270 - Completed : [action:save on: Part-RU6238001.edc-bom-1] (0.26 seconds) used memory:449mb (+23) available:3646mb (-23) safety margin:3571mb est JVM size:541mb (0) max JVM size:4096mb 
+2019-07-19 13:07:07,124  INFO Performance:270 - Starting  : [action:save on: Part-RU6283001.edc-bom-1] 
+2019-07-19 13:07:07,124  INFO Performance:270 - Starting  : [action:serialize-GCD on: Part-RU6283001]  with key: Part-RU6283001.User Guided.3d52e178-7b75-4ea8-a3bc-7c9302f0fe4f.1563556027124
+2019-07-19 13:07:07,127  INFO Performance:270 - Completed : [action:serialize-GCD on: Part-RU6283001] (0.0 seconds) used memory:454mb (0) available:3641mb (0) safety margin:3566mb est JVM size:541mb (0) max JVM size:4096mb  with key: Part-RU6283001.User Guided.3d52e178-7b75-4ea8-a3bc-7c9302f0fe4f.1563556027124 length:1288  effective charsPerSecond:429333.3333333333
+2019-07-19 13:07:07,128  INFO Performance:270 - Starting  : [action:load-image on: Part-RU6283001]  with key: Part-RU6283001.Web3DImage.null.0
+2019-07-19 13:07:07,130 ERROR Performance:318 - Failed    : [action:load-image on: Part-RU6283001]  with key: Part-RU6283001.Web3DImage.null.0
+2019-07-19 13:07:07,226  INFO Performance:270 - Completed : [action:save on: Part-RU6283001.edc-bom-1] (0.1 seconds) used memory:229mb (-223) available:3866mb (+223) safety margin:3791mb est JVM size:541mb (0) max JVM size:4096mb 
+2019-07-19 13:07:07,252  INFO Performance:270 - Starting  : [action:save on: Part-SVI72S-000330LF.edc-bom-1] 
+2019-07-19 13:07:07,253  INFO Performance:270 - Starting  : [action:serialize-GCD on: Part-SVI72S-000330LF]  with key: Part-SVI72S-000330LF.User Guided.3330b8af-eee3-4380-906f-f5b1924bb1c0.1563556027253
+2019-07-19 13:07:07,255  INFO Performance:270 - Completed : [action:serialize-GCD on: Part-SVI72S-000330LF] (0.0 seconds) used memory:232mb (0) available:3863mb (0) safety margin:3788mb est JVM size:541mb (0) max JVM size:4096mb  with key: Part-SVI72S-000330LF.User Guided.3330b8af-eee3-4380-906f-f5b1924bb1c0.1563556027253 length:1296  effective charsPerSecond:648000.0
+2019-07-19 13:07:07,256  INFO Performance:270 - Starting  : [action:load-image on: Part-SVI72S-000330LF]  with key: Part-SVI72S-000330LF.Web3DImage.null.0
+2019-07-19 13:07:07,257 ERROR Performance:318 - Failed    : [action:load-image on: Part-SVI72S-000330LF]  with key: Part-SVI72S-000330LF.Web3DImage.null.0
+2019-07-19 13:07:07,349  INFO Performance:270 - Completed : [action:save on: Part-SVI72S-000330LF.edc-bom-1] (0.1 seconds) used memory:236mb (+4) available:3859mb (-4) safety margin:3784mb est JVM size:541mb (0) max JVM size:4096mb 
+2019-07-19 13:07:07,377  INFO Performance:270 - Starting  : [action:save on: Part-SVP28M-009700LF.edc-bom-1] 
+2019-07-19 13:07:07,378  INFO Performance:270 - Starting  : [action:serialize-GCD on: Part-SVP28M-009700LF]  with key: Part-SVP28M-009700LF.User Guided.7f43cd66-1a26-470d-a911-dcde4716a018.1563556027378
+2019-07-19 13:07:07,380  INFO Performance:270 - Completed : [action:serialize-GCD on: Part-SVP28M-009700LF] (0.0 seconds) used memory:239mb (0) available:3856mb (0) safety margin:3781mb est JVM size:541mb (0) max JVM size:4096mb  with key: Part-SVP28M-009700LF.User Guided.7f43cd66-1a26-470d-a911-dcde4716a018.1563556027378 length:1300  effective charsPerSecond:650000.0
+2019-07-19 13:07:07,381  INFO Performance:270 - Starting  : [action:load-image on: Part-SVP28M-009700LF]  with key: Part-SVP28M-009700LF.Web3DImage.null.0
+2019-07-19 13:07:07,384 ERROR Performance:318 - Failed    : [action:load-image on: Part-SVP28M-009700LF]  with key: Part-SVP28M-009700LF.Web3DImage.null.0
+2019-07-19 13:07:07,477  INFO Performance:270 - Completed : [action:save on: Part-SVP28M-009700LF.edc-bom-1] (0.1 seconds) used memory:243mb (+5) available:3852mb (-5) safety margin:3777mb est JVM size:541mb (0) max JVM size:4096mb 
+2019-07-19 13:07:07,480  INFO Performance:270 - Starting  : [action:save on: Assembly-RU6238001.edc-bom-1] 
+2019-07-19 13:07:07,482  INFO Performance:270 - Starting  : [action:serialize-GCD on: Assembly-RU6238001]  with key: Assembly-RU6238001.Assembly.4f911c3c-8977-4d6a-8a9d-bdb17935bce9.1563556027482
+2019-07-19 13:07:07,527  INFO Performance:270 - Completed : [action:serialize-GCD on: Assembly-RU6238001] (0.05 seconds) used memory:251mb (+6) available:3844mb (-6) safety margin:3769mb est JVM size:541mb (0) max JVM size:4096mb  with key: Assembly-RU6238001.Assembly.4f911c3c-8977-4d6a-8a9d-bdb17935bce9.1563556027482 length:2372  effective charsPerSecond:52711.11111111111
+2019-07-19 13:07:07,529  INFO Performance:270 - Starting  : [action:load-image on: Assembly-RU6238001]  with key: Assembly-RU6238001.Web3DImage.null.0
+2019-07-19 13:07:07,530 ERROR Performance:318 - Failed    : [action:load-image on: Assembly-RU6238001]  with key: Assembly-RU6238001.Web3DImage.null.0
+2019-07-19 13:07:07,621  INFO Performance:270 - Completed : [action:save on: Assembly-RU6238001.edc-bom-1] (0.14 seconds) used memory:256mb (+12) available:3839mb (-12) safety margin:3764mb est JVM size:541mb (0) max JVM size:4096mb 
+2019-07-19 13:07:07,623  INFO Performance:270 - Starting  : [action:save on: Assembly-RU6283001.edc-bom-1] 
+2019-07-19 13:07:07,624  INFO Performance:270 - Starting  : [action:serialize-GCD on: Assembly-RU6283001]  with key: Assembly-RU6283001.Assembly.5770dcf6-b0f2-404f-a0c6-8536b7adc589.1563556027624
+2019-07-19 13:07:07,651  INFO Performance:270 - Completed : [action:serialize-GCD on: Assembly-RU6283001] (0.03 seconds) used memory:258mb (+1) available:3837mb (-1) safety margin:3762mb est JVM size:541mb (0) max JVM size:4096mb  with key: Assembly-RU6283001.Assembly.5770dcf6-b0f2-404f-a0c6-8536b7adc589.1563556027624 length:3852  effective charsPerSecond:142666.66666666666
+2019-07-19 13:07:07,652  INFO Performance:270 - Starting  : [action:load-image on: Assembly-RU6283001]  with key: Assembly-RU6283001.Web3DImage.null.0
+2019-07-19 13:07:07,653 ERROR Performance:318 - Failed    : [action:load-image on: Assembly-RU6283001]  with key: Assembly-RU6283001.Web3DImage.null.0
+2019-07-19 13:07:07,719  INFO Performance:270 - Completed : [action:save on: Assembly-RU6283001.edc-bom-1] (0.1 seconds) used memory:261mb (+4) available:3834mb (-4) safety margin:3759mb est JVM size:541mb (0) max JVM size:4096mb 
+2019-07-19 13:07:07,720  INFO Performance:270 - Completed : [action:bom-load] (1.25 seconds) used memory:261mb (-126) available:3834mb (+126) safety margin:3759mb est JVM size:541mb (0) max JVM size:4096mb  loaded 10 rows
+2019-07-19 13:07:36,784  INFO Performance:270 - Starting  : [action:load-GCD on: Assembly-RU6238001]  with key: Assembly-RU6238001.Assembly.4f911c3c-8977-4d6a-8a9d-bdb17935bce9.1563556027482
+2019-07-19 13:07:36,796  INFO Performance:270 - Completed : [action:load-GCD on: Assembly-RU6238001] (0.01 seconds) used memory:347mb (0) available:3748mb (0) safety margin:3673mb est JVM size:541mb (0) max JVM size:4096mb  length:2372  effective charsPerSecond:215636.36363636365 from database
+2019-07-19 13:07:36,889  INFO Performance:270 - Starting  : [action:load-GCD on: Assembly-RU6283001]  with key: Assembly-RU6283001.Assembly.5770dcf6-b0f2-404f-a0c6-8536b7adc589.1563556027624
+2019-07-19 13:07:36,898  INFO Performance:270 - Completed : [action:load-GCD on: Assembly-RU6283001] (0.01 seconds) used memory:357mb (0) available:3738mb (0) safety margin:3663mb est JVM size:541mb (0) max JVM size:4096mb  length:3852  effective charsPerSecond:428000.00000000006 from database
+2019-07-26 13:01:24,737  INFO Performance:270 - Starting  : [action:bom-load] starting bomLoad
+2019-07-26 13:01:24,891  INFO Performance:270 - Completed : [action:bom-load] (0.15 seconds) used memory:261mb (+3) available:3834mb (-3) safety margin:3759mb est JVM size:579mb (0) max JVM size:4096mb  loaded 1 rows
+2019-07-26 13:01:34,921  INFO Performance:270 - Starting  : [action:bom-load] starting bomLoad
+2019-07-26 13:01:34,938  INFO Performance:270 - Completed : [action:bom-load] (0.02 seconds) used memory:297mb (+1) available:3798mb (-1) safety margin:3723mb est JVM size:579mb (0) max JVM size:4096mb  loaded 1 rows
+2019-10-02 11:01:25,352  INFO Performance:270 - Starting  : [action:Spatial conversion] CATIA PART c:\users\kpatel\onedrive - apriori\documents\parts\d009203_31697110_lifting_cylinder.catpart using Direct Reader in process
+2019-10-02 11:01:45,691  INFO Performance:270 - Completed : [action:Spatial conversion] (20.34 seconds) used memory:220mb (-37) available:3875mb (+37) safety margin:3800mb est JVM size:667mb (0) max JVM size:4096mb 
+2019-10-02 11:01:45,727  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.2\tmp\acis\work\D009203_31697110_LIFTING_CYLINDER.sat
+2019-10-02 11:01:46,090  INFO Performance:270 - Completed : [action:Spatial part load ] (0.36 seconds) used memory:222mb (0) available:3873mb (0) safety margin:3798mb est JVM size:667mb (0) max JVM size:4096mb 
+2019-10-02 11:01:46,101  INFO Performance:270 - Starting  : [action:open on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-10-02 11:01:46,166  INFO Performance:270 - Starting  : [action:save on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-10-02 11:01:46,185  INFO Performance:270 - Starting  : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.Web3DImage.null.0
+2019-10-02 11:01:46,191 ERROR Performance:318 - Failed    : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.Web3DImage.null.0
+2019-10-02 11:01:46,346  INFO Performance:270 - Completed : [action:save on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.18 seconds) used memory:257mb (+21) available:3838mb (-21) safety margin:3763mb est JVM size:667mb (0) max JVM size:4096mb 
+2019-10-02 11:01:46,382  INFO Performance:270 - Starting  : [action:Create 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-02 11:01:47,049  INFO Performance:270 - Completed : [action:Create 3D image] (0.67 seconds) used memory:269mb (+9) available:3826mb (-9) safety margin:3751mb est JVM size:667mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-02 11:01:47,049  INFO Performance:270 - Completed : [action:open on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.95 seconds) used memory:269mb (+45) available:3826mb (-45) safety margin:3751mb est JVM size:667mb (0) max JVM size:4096mb 
+2019-10-02 11:01:47,054  INFO Performance:270 - Starting  : [action:save on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-10-02 11:01:47,063  INFO Performance:270 - Starting  : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.Web3DImage.null.0
+2019-10-02 11:01:47,065 ERROR Performance:318 - Failed    : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.Web3DImage.null.0
+2019-10-02 11:01:47,225  INFO Performance:270 - Completed : [action:save on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.17 seconds) used memory:280mb (+11) available:3815mb (-11) safety margin:3740mb est JVM size:667mb (0) max JVM size:4096mb 
+2019-10-02 11:01:48,805  INFO Performance:270 - Starting  : [action:build-image-panel on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-10-02 11:01:48,808  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-02 11:01:48,809  INFO Performance:270 - Starting  : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.3DImage.3b1a20c8-3cc6-425d-8642-8287fa9cf5e8.1570028506383
+2019-10-02 11:01:48,825  INFO Performance:270 - Completed : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER] (0.02 seconds) used memory:475mb (+1) available:3620mb (-1) safety margin:3545mb est JVM size:667mb (0) max JVM size:4096mb  length:117636  effective charsPerSecond:7352250.0 from database
+2019-10-02 11:01:48,825  INFO Performance:270 - Starting  : [action:inflate-image on: Part-D009203_31697110_LIFTING_CYLINDER] 
+2019-10-02 11:01:48,826  INFO Performance:270 - Completed : [action:inflate-image on: Part-D009203_31697110_LIFTING_CYLINDER] (0.0 seconds) used memory:476mb (0) available:3619mb (0) safety margin:3544mb est JVM size:667mb (0) max JVM size:4096mb  length:117636  effective charsPerSecond:1.17636E8 from hibernate (database)
+2019-10-02 11:01:48,842  INFO Performance:270 - Completed : [action:Parse 3D image] (0.03 seconds) used memory:477mb (+3) available:3618mb (-3) safety margin:3543mb est JVM size:667mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-02 11:01:48,842  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-02 11:01:48,843  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:477mb (0) available:3618mb (0) safety margin:3543mb est JVM size:667mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-02 11:01:48,944  INFO Performance:270 - Completed : [action:build-image-panel on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.14 seconds) used memory:482mb (+8) available:3613mb (-8) safety margin:3538mb est JVM size:667mb (0) max JVM size:4096mb 
+2019-10-02 11:01:49,383  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-10-02 11:01:49,405  INFO Performance:270 - Completed : [action:Build cost table rows] (0.02 seconds) used memory:501mb (+5) available:3594mb (-5) safety margin:3519mb est JVM size:667mb (0) max JVM size:4096mb 
+2019-10-08 15:35:06,420  INFO Performance:270 - Starting  : [action:Spatial conversion] CATIA PART c:\users\kpatel\onedrive - apriori\documents\parts\d009203_31697110_lifting_cylinder.catpart using Direct Reader in process
+2019-10-08 15:35:18,683  INFO Performance:270 - Completed : [action:Spatial conversion] (12.26 seconds) used memory:309mb (+1) available:3786mb (-1) safety margin:3711mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:35:18,707  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.2\tmp\acis\work\D009203_31697110_LIFTING_CYLINDER.sat
+2019-10-08 15:35:19,090  INFO Performance:270 - Completed : [action:Spatial part load ] (0.38 seconds) used memory:312mb (0) available:3783mb (0) safety margin:3708mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:35:19,103  INFO Performance:270 - Starting  : [action:open on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-10-08 15:35:19,143  INFO Performance:270 - Starting  : [action:Create 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-08 15:35:19,688  INFO Performance:270 - Completed : [action:Create 3D image] (0.55 seconds) used memory:325mb (+9) available:3770mb (-9) safety margin:3695mb est JVM size:519mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-08 15:35:19,689  INFO Performance:270 - Completed : [action:open on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.59 seconds) used memory:325mb (+12) available:3770mb (-12) safety margin:3695mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:35:21,303  INFO Performance:270 - Starting  : [action:build-image-panel on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] 
+2019-10-08 15:35:21,306  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-08 15:35:21,307  INFO Performance:270 - Starting  : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER]  with key: Part-D009203_31697110_LIFTING_CYLINDER.3DImage.433563dd-b77d-46b1-bb61-6e422853fb47.1570563319144
+2019-10-08 15:35:21,308  INFO Performance:270 - Completed : [action:load-image on: Part-D009203_31697110_LIFTING_CYLINDER] (0.0 seconds) used memory:322mb (0) available:3773mb (0) safety margin:3698mb est JVM size:519mb (0) max JVM size:4096mb  length:0 from disk
+2019-10-08 15:35:21,322  INFO Performance:270 - Completed : [action:Parse 3D image] (0.02 seconds) used memory:323mb (+1) available:3772mb (-1) safety margin:3697mb est JVM size:519mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-08 15:35:21,322  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-08 15:35:21,323  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:323mb (0) available:3772mb (0) safety margin:3697mb est JVM size:519mb (0) max JVM size:4096mb Part-D009203_31697110_LIFTING_CYLINDER.Initial
+2019-10-08 15:35:21,394  INFO Performance:270 - Completed : [action:build-image-panel on: Part-D009203_31697110_LIFTING_CYLINDER.Initial] (0.09 seconds) used memory:328mb (+6) available:3767mb (-6) safety margin:3692mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:35:21,893  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-10-08 15:35:21,917  INFO Performance:270 - Completed : [action:Build cost table rows] (0.02 seconds) used memory:348mb (+4) available:3747mb (-4) safety margin:3672mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:08,250  INFO Performance:270 - Starting  : [action:Spatial conversion of assembly and subcopmonents] Assembly-0272060.Initial
+2019-10-08 15:44:08,258  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE ASSEMBLY k:\departments\engineering\qa\big assembly\0272060.asm.1 using Direct Reader out of process
+2019-10-08 15:44:09,037  INFO Performance:270 - Completed : [action:Spatial conversion] (0.78 seconds) used memory:265mb (0) available:3830mb (0) safety margin:3755mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:09,094  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\1671024.prt.1 using Direct Reader out of process
+2019-10-08 15:44:10,503  INFO Performance:270 - Completed : [action:Spatial conversion] (1.41 seconds) used memory:269mb (0) available:3826mb (0) safety margin:3751mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:10,513  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\1671024.prt.sab
+2019-10-08 15:44:10,571  INFO Performance:270 - Completed : [action:Spatial part load ] (0.06 seconds) used memory:270mb (0) available:3825mb (0) safety margin:3750mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:10,574  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\2820143.prt.1 using Direct Reader out of process
+2019-10-08 15:44:11,010  INFO Performance:270 - Completed : [action:Spatial conversion] (0.44 seconds) used memory:270mb (0) available:3825mb (0) safety margin:3750mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:11,018  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\2820143.prt.sab
+2019-10-08 15:44:11,023  INFO Performance:270 - Completed : [action:Spatial part load ] (0.01 seconds) used memory:270mb (0) available:3825mb (0) safety margin:3750mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:11,026  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\2820144.prt.1 using Direct Reader out of process
+2019-10-08 15:44:11,360  INFO Performance:270 - Completed : [action:Spatial conversion] (0.33 seconds) used memory:271mb (0) available:3824mb (0) safety margin:3749mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:11,367  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\2820144.prt.sab
+2019-10-08 15:44:11,370  INFO Performance:270 - Completed : [action:Spatial part load ] (0.0 seconds) used memory:271mb (0) available:3824mb (0) safety margin:3749mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:11,372  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\2820147.prt.1 using Direct Reader out of process
+2019-10-08 15:44:11,703  INFO Performance:270 - Completed : [action:Spatial conversion] (0.33 seconds) used memory:272mb (0) available:3823mb (0) safety margin:3748mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:11,717  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\2820147.prt.sab
+2019-10-08 15:44:11,719  INFO Performance:270 - Completed : [action:Spatial part load ] (0.0 seconds) used memory:272mb (0) available:3823mb (0) safety margin:3748mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:11,722  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\4240099.prt.1 using Direct Reader out of process
+2019-10-08 15:44:12,026  INFO Performance:270 - Completed : [action:Spatial conversion] (0.3 seconds) used memory:272mb (0) available:3823mb (0) safety margin:3748mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,035  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\4240099.prt.sab
+2019-10-08 15:44:12,036  INFO Performance:270 - Completed : [action:Spatial part load ] (0.0 seconds) used memory:273mb (0) available:3822mb (0) safety margin:3747mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,038  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\4240099.prt.sab
+2019-10-08 15:44:12,039  INFO Performance:270 - Completed : [action:Spatial part load ] (0.0 seconds) used memory:273mb (0) available:3822mb (0) safety margin:3747mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,040  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\4240099.prt.sab
+2019-10-08 15:44:12,041  INFO Performance:270 - Completed : [action:Spatial part load ] (0.0 seconds) used memory:273mb (0) available:3822mb (0) safety margin:3747mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,043  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\4240099.prt.sab
+2019-10-08 15:44:12,044  INFO Performance:270 - Completed : [action:Spatial part load ] (0.0 seconds) used memory:274mb (0) available:3821mb (0) safety margin:3746mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,046  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\fox_foam_tie.prt.1 using Direct Reader out of process
+2019-10-08 15:44:12,420  INFO Performance:270 - Completed : [action:Spatial conversion] (0.37 seconds) used memory:274mb (0) available:3821mb (0) safety margin:3746mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,431  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\fox_foam_tie.prt.sab
+2019-10-08 15:44:12,435  INFO Performance:270 - Completed : [action:Spatial part load ] (0.0 seconds) used memory:274mb (0) available:3821mb (0) safety margin:3746mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,438  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\fox_foam_tie2.prt.1 using Direct Reader out of process
+2019-10-08 15:44:12,811  INFO Performance:270 - Completed : [action:Spatial conversion] (0.37 seconds) used memory:275mb (0) available:3820mb (0) safety margin:3745mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,819  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\fox_foam_tie2.prt.sab
+2019-10-08 15:44:12,823  INFO Performance:270 - Completed : [action:Spatial part load ] (0.0 seconds) used memory:275mb (0) available:3820mb (0) safety margin:3745mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:12,825  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\2820149.prt.1 using Direct Reader out of process
+2019-10-08 15:44:13,210  INFO Performance:270 - Completed : [action:Spatial conversion] (0.39 seconds) used memory:275mb (0) available:3820mb (0) safety margin:3745mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:13,219  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\2820149.prt.sab
+2019-10-08 15:44:13,224  INFO Performance:270 - Completed : [action:Spatial part load ] (0.01 seconds) used memory:275mb (0) available:3820mb (0) safety margin:3745mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:13,227  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\2820150.prt.1 using Direct Reader out of process
+2019-10-08 15:44:13,613  INFO Performance:270 - Completed : [action:Spatial conversion] (0.39 seconds) used memory:276mb (0) available:3819mb (0) safety margin:3744mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:13,621  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\2820150.prt.sab
+2019-10-08 15:44:13,626  INFO Performance:270 - Completed : [action:Spatial part load ] (0.01 seconds) used memory:277mb (0) available:3818mb (0) safety margin:3743mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:13,629  INFO Performance:270 - Starting  : [action:Spatial conversion] PROE PART k:\departments\engineering\qa\big assembly\2820151.prt.1 using Direct Reader out of process
+2019-10-08 15:44:13,999  INFO Performance:270 - Completed : [action:Spatial conversion] (0.37 seconds) used memory:277mb (0) available:3818mb (0) safety margin:3743mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:14,006  INFO Performance:270 - Starting  : [action:Spatial part load ] c:\users\kpatel\appdata\local\apriori\19.2\tmp\acis\work\2820151.prt.sab
+2019-10-08 15:44:14,011  INFO Performance:270 - Completed : [action:Spatial part load ] (0.01 seconds) used memory:277mb (0) available:3818mb (0) safety margin:3743mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:14,032  INFO Performance:270 - Completed : [action:Spatial conversion of assembly and subcopmonents] (5.78 seconds) used memory:279mb (+13) available:3816mb (-13) safety margin:3741mb est JVM size:519mb (0) max JVM size:4096mb Assembly-0272060.Initial
+2019-10-08 15:44:14,032  INFO Performance:270 - Starting  : [action:open on: Assembly-0272060.Initial] 
+2019-10-08 15:44:14,062  INFO Performance:270 - Starting  : [action:save on: Assembly-0272060.Initial] 
+2019-10-08 15:44:14,067  INFO Performance:270 - Starting  : [action:load-image on: Assembly-0272060]  with key: Assembly-0272060.Web3DImage.null.0
+2019-10-08 15:44:14,068 ERROR Performance:318 - Failed    : [action:load-image on: Assembly-0272060]  with key: Assembly-0272060.Web3DImage.null.0
+2019-10-08 15:44:14,180  INFO Performance:270 - Completed : [action:save on: Assembly-0272060.Initial] (0.12 seconds) used memory:294mb (+9) available:3801mb (-9) safety margin:3726mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:14,190  INFO Performance:270 - Starting  : [action:Create 3D image] Assembly-0272060.Initial
+2019-10-08 15:44:14,499  INFO Performance:270 - Completed : [action:Create 3D image] (0.31 seconds) used memory:300mb (+4) available:3795mb (-4) safety margin:3720mb est JVM size:519mb (0) max JVM size:4096mb Assembly-0272060.Initial
+2019-10-08 15:44:14,500  INFO Performance:270 - Completed : [action:open on: Assembly-0272060.Initial] (0.47 seconds) used memory:300mb (+21) available:3795mb (-21) safety margin:3720mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:14,502  INFO Performance:270 - Starting  : [action:save on: Assembly-0272060.Initial] 
+2019-10-08 15:44:14,511  INFO Performance:270 - Starting  : [action:load-image on: Assembly-0272060]  with key: Assembly-0272060.Web3DImage.null.0
+2019-10-08 15:44:14,512 ERROR Performance:318 - Failed    : [action:load-image on: Assembly-0272060]  with key: Assembly-0272060.Web3DImage.null.0
+2019-10-08 15:44:14,635  INFO Performance:270 - Completed : [action:save on: Assembly-0272060.Initial] (0.13 seconds) used memory:312mb (+11) available:3783mb (-11) safety margin:3708mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:14,706  INFO Performance:270 - Starting  : [action:Create BOM cost summary] Assembly-0272060.Initial
+2019-10-08 15:44:14,714  INFO Performance:270 - Completed : [action:Create BOM cost summary] (0.01 seconds) used memory:323mb (+4) available:3772mb (-4) safety margin:3697mb est JVM size:519mb (0) max JVM size:4096mb Assembly-0272060.Initial
+2019-10-08 15:44:15,325  INFO Performance:270 - Starting  : [action:build-image-panel on: Assembly-0272060.Initial] 
+2019-10-08 15:44:15,325  INFO Performance:270 - Starting  : [action:Parse 3D image] Assembly-0272060.Initial
+2019-10-08 15:44:15,326  INFO Performance:270 - Starting  : [action:load-image on: Assembly-0272060]  with key: Assembly-0272060.3DImage.1089ad2a-6463-4344-b492-5a39aa600070.1570563854190
+2019-10-08 15:44:15,342  INFO Performance:270 - Completed : [action:load-image on: Assembly-0272060] (0.02 seconds) used memory:383mb (+1) available:3712mb (-1) safety margin:3637mb est JVM size:519mb (0) max JVM size:4096mb  length:113676  effective charsPerSecond:7104750.0 from database
+2019-10-08 15:44:15,342  INFO Performance:270 - Starting  : [action:inflate-image on: Assembly-0272060] 
+2019-10-08 15:44:15,343  INFO Performance:270 - Completed : [action:inflate-image on: Assembly-0272060] (0.0 seconds) used memory:383mb (0) available:3712mb (0) safety margin:3637mb est JVM size:519mb (0) max JVM size:4096mb  length:113676  effective charsPerSecond:1.13676E8 from hibernate (database)
+2019-10-08 15:44:15,350  INFO Performance:270 - Completed : [action:Parse 3D image] (0.03 seconds) used memory:384mb (+3) available:3711mb (-3) safety margin:3636mb est JVM size:519mb (0) max JVM size:4096mb Assembly-0272060.Initial
+2019-10-08 15:44:15,350  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Assembly-0272060.Initial
+2019-10-08 15:44:15,351  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:384mb (0) available:3711mb (0) safety margin:3636mb est JVM size:519mb (0) max JVM size:4096mb Assembly-0272060.Initial
+2019-10-08 15:44:15,360  INFO Performance:270 - Completed : [action:build-image-panel on: Assembly-0272060.Initial] (0.04 seconds) used memory:385mb (+4) available:3710mb (-4) safety margin:3635mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-08 15:44:15,702  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-10-08 15:44:15,710  INFO Performance:270 - Completed : [action:Build cost table rows] (0.01 seconds) used memory:401mb (+2) available:3694mb (-2) safety margin:3619mb est JVM size:519mb (0) max JVM size:4096mb 
+2019-10-15 15:01:57,352  INFO Performance:270 - Starting  : [action:load-GCD on: Assembly-700-32149-01_A0]  with key: Assembly-700-32149-01_A0.Assembly.20856669-6a65-4a70-b725-c2c2e8e6971c.1571149252491
+2019-10-15 15:01:57,378  INFO Performance:270 - Completed : [action:load-GCD on: Assembly-700-32149-01_A0] (0.03 seconds) used memory:252mb (0) available:5891mb (0) safety margin:5816mb est JVM size:514mb (0) max JVM size:6144mb  length:2904  effective charsPerSecond:111692.3076923077 from database
+2019-10-15 15:01:57,501  INFO Performance:270 - Starting  : [action:load-GCD on: Assembly-700-32149-01_ASY_01]  with key: Assembly-700-32149-01_ASY_01.Assembly.8e9bd7df-8c2f-4558-a0d0-30b37c844cd4.1571149308456
+2019-10-15 15:01:57,512  INFO Performance:270 - Completed : [action:load-GCD on: Assembly-700-32149-01_ASY_01] (0.01 seconds) used memory:271mb (0) available:5872mb (0) safety margin:5797mb est JVM size:514mb (0) max JVM size:6144mb  length:3004  effective charsPerSecond:273090.9090909091 from database
+2019-10-15 15:03:18,422  INFO Performance:270 - Starting  : [action:Spatial conversion] CATIA PART k:\departments\engineering\qa\test events\test data\casting\catiav5r18\kawasaki\39186-0032a.catpart using Direct Reader in process
+2019-10-15 15:03:29,101  INFO Performance:270 - Completed : [action:Spatial conversion] (10.68 seconds) used memory:260mb (+3) available:5883mb (-3) safety margin:5808mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:03:29,125  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.2\tmp\acis\work\39186-0032A.sat
+2019-10-15 15:03:29,294  INFO Performance:270 - Completed : [action:Spatial part load ] (0.17 seconds) used memory:263mb (0) available:5880mb (0) safety margin:5805mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:03:29,304  INFO Performance:270 - Starting  : [action:open on: Part-39186-0032A.Initial] 
+2019-10-15 15:03:29,353  INFO Performance:270 - Starting  : [action:save on: Part-39186-0032A.Initial] 
+2019-10-15 15:03:29,360  INFO Performance:270 - Starting  : [action:load-image on: Part-39186-0032A]  with key: Part-39186-0032A.Web3DImage.null.0
+2019-10-15 15:03:29,366 ERROR Performance:318 - Failed    : [action:load-image on: Part-39186-0032A]  with key: Part-39186-0032A.Web3DImage.null.0
+2019-10-15 15:03:29,457  INFO Performance:270 - Completed : [action:save on: Part-39186-0032A.Initial] (0.1 seconds) used memory:281mb (+10) available:5862mb (-10) safety margin:5787mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:03:29,493  INFO Performance:270 - Starting  : [action:Create 3D image] Part-39186-0032A.Initial
+2019-10-15 15:03:29,997  INFO Performance:270 - Completed : [action:Create 3D image] (0.5 seconds) used memory:290mb (+6) available:5853mb (-6) safety margin:5778mb est JVM size:514mb (0) max JVM size:6144mb Part-39186-0032A.Initial
+2019-10-15 15:03:29,997  INFO Performance:270 - Completed : [action:open on: Part-39186-0032A.Initial] (0.69 seconds) used memory:290mb (+26) available:5853mb (-26) safety margin:5778mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:03:30,005  INFO Performance:270 - Starting  : [action:save on: Part-39186-0032A.Initial] 
+2019-10-15 15:03:30,021  INFO Performance:270 - Starting  : [action:load-image on: Part-39186-0032A]  with key: Part-39186-0032A.Web3DImage.null.0
+2019-10-15 15:03:30,023 ERROR Performance:318 - Failed    : [action:load-image on: Part-39186-0032A]  with key: Part-39186-0032A.Web3DImage.null.0
+2019-10-15 15:03:30,141  INFO Performance:270 - Completed : [action:save on: Part-39186-0032A.Initial] (0.14 seconds) used memory:299mb (+8) available:5844mb (-8) safety margin:5769mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:03:32,069  INFO Performance:270 - Starting  : [action:build-image-panel on: Part-39186-0032A.Initial] 
+2019-10-15 15:03:32,074  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-39186-0032A.Initial
+2019-10-15 15:03:32,075  INFO Performance:270 - Starting  : [action:load-image on: Part-39186-0032A]  with key: Part-39186-0032A.3DImage.7ce991db-2e06-4c1e-aacd-7365430fdac2.1571166209494
+2019-10-15 15:03:32,092  INFO Performance:270 - Completed : [action:load-image on: Part-39186-0032A] (0.02 seconds) used memory:328mb (+1) available:5815mb (-1) safety margin:5740mb est JVM size:514mb (0) max JVM size:6144mb  length:88336  effective charsPerSecond:5196235.294117646 from database
+2019-10-15 15:03:32,093  INFO Performance:270 - Starting  : [action:inflate-image on: Part-39186-0032A] 
+2019-10-15 15:03:32,094  INFO Performance:270 - Completed : [action:inflate-image on: Part-39186-0032A] (0.0 seconds) used memory:329mb (0) available:5814mb (0) safety margin:5739mb est JVM size:514mb (0) max JVM size:6144mb  length:88336  effective charsPerSecond:8.8336E7 from hibernate (database)
+2019-10-15 15:03:32,109  INFO Performance:270 - Completed : [action:Parse 3D image] (0.04 seconds) used memory:330mb (+3) available:5813mb (-3) safety margin:5738mb est JVM size:514mb (0) max JVM size:6144mb Part-39186-0032A.Initial
+2019-10-15 15:03:32,109  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-39186-0032A.Initial
+2019-10-15 15:03:32,111  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:330mb (0) available:5813mb (0) safety margin:5738mb est JVM size:514mb (0) max JVM size:6144mb Part-39186-0032A.Initial
+2019-10-15 15:03:32,205  INFO Performance:270 - Completed : [action:build-image-panel on: Part-39186-0032A.Initial] (0.14 seconds) used memory:334mb (+7) available:5809mb (-7) safety margin:5734mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:03:32,832  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-10-15 15:03:32,853  INFO Performance:270 - Completed : [action:Build cost table rows] (0.02 seconds) used memory:356mb (+5) available:5787mb (-5) safety margin:5712mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:17,468  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-10-15 15:04:17,474  INFO Performance:270 - Completed : [action:Build cost table rows] (0.01 seconds) used memory:309mb (0) available:5834mb (0) safety margin:5759mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:18,870  INFO Performance:270 - Starting  : [action:populate-GCD on: Part-39186-0032A.Initial]  processGroup:Sheet Metal
+2019-10-15 15:04:18,963  INFO Performance:270 - Starting  : [action:GCD Extraction] Extraction started
+2019-10-15 15:04:19,013  INFO Performance:270 - Starting  : [action:FbcModel.initModel] 
+2019-10-15 15:04:19,019  INFO Performance:270 - Starting  : [action:Load native model] 
+2019-10-15 15:04:19,559  INFO Performance:270 - Completed : [action:Load native model] (0.54 seconds) used memory:252mb (-33) available:5891mb (+33) safety margin:5816mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:19,560  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Load native surfaces for ACIS model 0 39186-0032A solid body 0
+2019-10-15 15:04:19,634  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.07 seconds) used memory:256mb (+4) available:5887mb (-4) safety margin:5812mb est JVM size:514mb (0) max JVM size:6144mb Load native surfaces for ACIS model 0 39186-0032A solid body 0
+2019-10-15 15:04:19,653  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Load native tessellation
+2019-10-15 15:04:20,001  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.35 seconds) used memory:266mb (+8) available:5877mb (-8) safety margin:5802mb est JVM size:514mb (0) max JVM size:6144mb Load native tessellation
+2019-10-15 15:04:20,020  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Fit analytic surfaces
+2019-10-15 15:04:21,068  INFO Performance:270 - Completed : [action:FbcModel.initPart] (1.05 seconds) used memory:386mb (+117) available:5757mb (-117) safety margin:5682mb est JVM size:514mb (0) max JVM size:6144mb Fit analytic surfaces
+2019-10-15 15:04:21,072  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Fit arc and line edges
+2019-10-15 15:04:21,123  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.05 seconds) used memory:388mb (+2) available:5755mb (-2) safety margin:5680mb est JVM size:514mb (0) max JVM size:6144mb Fit arc and line edges
+2019-10-15 15:04:21,123  INFO Performance:270 - Starting  : [action:FbcModel.initPart] Heal tessellation
+2019-10-15 15:04:21,332  INFO Performance:270 - Completed : [action:FbcModel.initPart] (0.21 seconds) used memory:408mb (+20) available:5735mb (-20) safety margin:5660mb est JVM size:514mb (0) max JVM size:6144mb Heal tessellation
+2019-10-15 15:04:21,638  INFO Performance:270 - Completed : [action:FbcModel.initModel] (2.63 seconds) used memory:438mb (+154) available:5705mb (-154) safety margin:5630mb est JVM size:514mb (0) max JVM size:6144mb success
+2019-10-15 15:04:23,032  INFO Performance:270 - Starting  : [action:FEA flattening] 
+2019-10-15 15:04:25,181  INFO Performance:270 - Starting  : [action:Spatial part load ] C:\Users\kpatel\AppData\Local\aPriori\19.2\tmp\BSE\work\bseOut\530ff4ab-c00c-4191-88ae-749f18a2f541_output.sat
+2019-10-15 15:04:25,186  INFO Performance:270 - Completed : [action:Spatial part load ] (0.01 seconds) used memory:359mb (0) available:5784mb (0) safety margin:5709mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:25,196  INFO Performance:270 - Completed : [action:FEA flattening] (2.16 seconds) used memory:360mb (+3) available:5783mb (-3) safety margin:5708mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:25,806  INFO Performance:270 - Starting  : [action:Axis Detector)] Axes Candidates Computation
+2019-10-15 15:04:25,834  INFO Performance:270 - Starting  : [action:computeUnfaceablePlanes] 
+2019-10-15 15:04:25,865  INFO Performance:270 - Completed : [action:computeUnfaceablePlanes] (0.03 seconds) used memory:437mb (+4) available:5706mb (-4) safety margin:5631mb est JVM size:514mb (0) max JVM size:6144mb success
+2019-10-15 15:04:25,953  INFO Performance:270 - Completed : [action:Axis Detector)] (0.15 seconds) used memory:260mb (-168) available:5883mb (+168) safety margin:5808mb est JVM size:514mb (0) max JVM size:6144mb Axes Candidates Computation
+2019-10-15 15:04:25,998  INFO Performance:270 - Starting  : [action:Compute axes)] Setup Axes Computation
+2019-10-15 15:04:26,288  INFO Performance:270 - Completed : [action:Compute axes)] (0.29 seconds) used memory:291mb (+27) available:5852mb (-27) safety margin:5777mb est JVM size:514mb (0) max JVM size:6144mb Setup Axes Computation
+2019-10-15 15:04:26,290  INFO Performance:270 - Starting  : [action:Face Finishing Artifacts Creation] 
+2019-10-15 15:04:27,699  INFO Performance:270 - Completed : [action:Face Finishing Artifacts Creation] (1.41 seconds) used memory:341mb (+49) available:5802mb (-49) safety margin:5727mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:27,709  INFO Performance:270 - Starting  : [action:Creating IsFilletOfRelations] 
+2019-10-15 15:04:27,725  INFO Performance:270 - Completed : [action:Creating IsFilletOfRelations] (0.02 seconds) used memory:343mb (+1) available:5800mb (-1) safety margin:5725mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:27,749  INFO Performance:270 - Starting  : [action:Lies Near Distance Computation] 
+2019-10-15 15:04:27,756  INFO Performance:270 - Completed : [action:Lies Near Distance Computation] (0.01 seconds) used memory:346mb (0) available:5797mb (0) safety margin:5722mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:28,383  INFO Performance:270 - Completed : [action:GCD Extraction] (9.42 seconds) used memory:385mb (+125) available:5758mb (-125) safety margin:5683mb est JVM size:514mb (0) max JVM size:6144mb Extraction completed
+2019-10-15 15:04:28,385  INFO Performance:270 - Starting  : [action:compute-image on: Part-39186-0032A.Initial]  modelRef:Part-39186-0032A.Initial
+2019-10-15 15:04:28,595  INFO Performance:270 - Completed : [action:compute-image on: Part-39186-0032A.Initial] (0.21 seconds) used memory:406mb (+21) available:5737mb (-21) safety margin:5662mb est JVM size:514mb (0) max JVM size:6144mb  modelRef:Part-39186-0032A.Initial
+2019-10-15 15:04:28,596  INFO Performance:270 - Starting  : [action:match-GCD on: Part-39186-0032A.Initial]  modelRef:Part-39186-0032A.Initial
+2019-10-15 15:04:28,690  INFO Performance:270 - Completed : [action:match-GCD on: Part-39186-0032A.Initial] (0.09 seconds) used memory:414mb (+7) available:5729mb (-7) safety margin:5654mb est JVM size:514mb (0) max JVM size:6144mb  modelRef:Part-39186-0032A.Initial
+2019-10-15 15:04:28,694  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-39186-0032A.Initial
+2019-10-15 15:04:28,695  INFO Performance:270 - Starting  : [action:load-image on: Part-39186-0032A]  with key: Part-39186-0032A.3DImage.f276a642-8f5e-4761-9445-56ca3aa4140f.1571166268499
+2019-10-15 15:04:28,695  INFO Performance:270 - Completed : [action:load-image on: Part-39186-0032A] (0.0 seconds) used memory:415mb (0) available:5728mb (0) safety margin:5653mb est JVM size:514mb (0) max JVM size:6144mb  length:0 from disk
+2019-10-15 15:04:28,757  INFO Performance:270 - Completed : [action:Parse 3D image] (0.06 seconds) used memory:420mb (+5) available:5723mb (-5) safety margin:5648mb est JVM size:514mb (0) max JVM size:6144mb Part-39186-0032A.Initial
+2019-10-15 15:04:28,758  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-39186-0032A.Initial
+2019-10-15 15:04:28,758  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:421mb (0) available:5722mb (0) safety margin:5647mb est JVM size:514mb (0) max JVM size:6144mb Part-39186-0032A.Initial
+2019-10-15 15:04:28,808  INFO Performance:270 - Completed : [action:populate-GCD on: Part-39186-0032A.Initial] (9.94 seconds) used memory:421mb (+153) available:5722mb (-153) safety margin:5647mb est JVM size:514mb (0) max JVM size:6144mb  processGroup:Sheet Metal
+2019-10-15 15:04:29,251  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-10-15 15:04:29,255  INFO Performance:270 - Completed : [action:Build cost table rows] (0.0 seconds) used memory:317mb (0) available:5826mb (0) safety margin:5751mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:04:29,259  INFO Performance:270 - Starting  : [action:Parse 3D image] Part-39186-0032A.Initial
+2019-10-15 15:04:29,260  INFO Performance:270 - Starting  : [action:load-image on: Part-39186-0032A]  with key: Part-39186-0032A.3DImage.f276a642-8f5e-4761-9445-56ca3aa4140f.1571166268499
+2019-10-15 15:04:29,260  INFO Performance:270 - Completed : [action:load-image on: Part-39186-0032A] (0.0 seconds) used memory:318mb (0) available:5825mb (0) safety margin:5750mb est JVM size:514mb (0) max JVM size:6144mb  length:0 from disk
+2019-10-15 15:04:29,313  INFO Performance:270 - Completed : [action:Parse 3D image] (0.05 seconds) used memory:324mb (+5) available:5819mb (-5) safety margin:5744mb est JVM size:514mb (0) max JVM size:6144mb Part-39186-0032A.Initial
+2019-10-15 15:04:29,313  INFO Performance:270 - Starting  : [action:Postprocess 3D image] Part-39186-0032A.Initial
+2019-10-15 15:04:29,313  INFO Performance:270 - Completed : [action:Postprocess 3D image] (0.0 seconds) used memory:324mb (0) available:5819mb (0) safety margin:5744mb est JVM size:514mb (0) max JVM size:6144mb Part-39186-0032A.Initial
+2019-10-15 15:04:29,885  INFO Performance:270 - Starting  : [action:calc-cost on: Part-39186-0032A.Initial] 
+2019-10-15 15:05:32,782  INFO Performance:270 - Completed : [action:calc-cost on: Part-39186-0032A.Initial] (62.9 seconds) used memory:414mb (+18) available:5729mb (-18) safety margin:5654mb est JVM size:514mb (0) max JVM size:6144mb 
+2019-10-15 15:05:32,974  INFO Performance:270 - Starting  : [action:Build cost table rows] 
+2019-10-15 15:05:33,021  INFO Performance:270 - Completed : [action:Build cost table rows] (0.05 seconds) used memory:380mb (+4) available:5763mb (-4) safety margin:5688mb est JVM size:514mb (0) max JVM size:6144mb 
