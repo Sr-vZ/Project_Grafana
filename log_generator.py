@@ -88,7 +88,7 @@ with os.scandir(path) as entries:
     for entry in entries:
         # if '.log' in entry.name and not entry.name == logFile.lstrip('./') and not entry.name == newLogFile.lstrip('./'):
         if '.log' in entry.name and 'aprioriPerformance' in entry.name:
-            logFile = './' + entry.name
+            logFile = path + entry.name
             res = ''.join(filter(str.isdigit, logFile))
             print('Processing.... ', entry.name)
             # print(res)
